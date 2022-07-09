@@ -5,5 +5,5 @@ Contando com mais de 1500 horas de conteúdo síncrono e assíncrono, dividas en
 
 Sobre este repositório
 
-Este repositório contém os exercícios desenvolvidos durante a minha formação na Trybe, e será atualizado até a data prevista para a conclusão do curso (Julho/2022).
+Este repositório contém os exercícios desenvolvidos durante a minha formação na Trybe, e será atualizado até a data prevista para a conclusão do curso (Julho/2023).
 
