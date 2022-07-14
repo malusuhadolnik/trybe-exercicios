@@ -1,0 +1,33 @@
+h1 {
+    font-size: 3em;
+    font-family: sans-serif;
+    color: orange;
+}
+
+p{
+    font-weight: 600;
+}
+
+body {
+    font-size: 16px;
+    font-family: monospace;
+    text-align: center;
+}
+
+#cor-fundo-da-lsta {
+    background-color: aquamarine;
+}
+
+.cor-background {
+    background-color:lavender;
+}
+
+#cor-amarela {
+    background-color: yellow;
+}
+#cor-vermelha {
+    background-color: red;
+}
+#cor-marrom {
+    background-color: brown;
+}
