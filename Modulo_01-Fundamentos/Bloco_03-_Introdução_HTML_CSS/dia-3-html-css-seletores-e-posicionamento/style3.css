@@ -1,0 +1,15 @@
+.centralizado {
+    text-align: center;
+}
+
+li:hover {
+    background-color: rgb(223, 200, 245);
+}
+
+li:active {
+    color: rgb(184, 235, 142);
+}
+
+.liststyle {
+    list-style: none;
+}
