@@ -18,4 +18,26 @@ function caixaDoMeio () {
 
 caixaDoMeio()
 
+function correcaoDoTexto (){
+    let primeiroHeader = document.getElementsByTagName("h1")[0];
+    primeiroHeader.innerHTML = "Exercício 5.1 - JavaScript";
+}
+
+correcaoDoTexto();
+
+function paragraphUpperCase() {
+    let paragraph = document.getElementsByTagName('p');
+    for (let index in paragraph){ 
+        paragraph[index].innerHTML = paragraph[index].innerHTML.toUpperCase();
+    }
+  }
+  paragraphUpperCase();
+
+function printParagrafos () {
+    let paragraph = document.getElementsByTagName('p');
+    for (let index in paragraph){ 
+        console.log(paragraph[index].innerHTML);
+    }
+}
+printParagrafos();
 
