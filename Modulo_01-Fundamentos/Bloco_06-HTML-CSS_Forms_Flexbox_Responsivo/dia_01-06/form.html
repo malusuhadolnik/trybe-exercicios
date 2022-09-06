@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form-css.css">
+    <title>Formulário Trybe Trip</title>
+</head>
+<body>
+    <header>
+        <h1>Formulário Trybe Trip</h1>
+    </header>
+
+    <form action="" method="get">
+        <main>
+            <div>
+                <label for="name">Nome completo:</label>
+                <input type="text" id="name" required minlength="10" maxlength="40">
+            </div>
+            <div>
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" required minlength="10" maxlength="50">
+            </div>
+            <div>
+              <label for="dropdown-destino">Destino preferido: </label>
+              <select name="destino" id="dropdown-destino">
+                    <option value="Cidade">Cidade</option>
+                    <option value="Campo">Campo</option>
+                    <option value="Praia">Praia</option>
+                    <option value="Montanhas">Montanhas</option>
+             </select>
+            </div>
+            <div>
+              <p>Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso TrybeTrip?</p>
+              <textarea name="justificativa" id="" cols="30" rows="10" maxlength="500" placeholder="Máximo de 500 caracteres"></textarea>
+            </div>
+            <div>
+              <label for="dropdown-destino">Qual a melhor data para realizar sua viagem? </label>
+              <select name="destino" id="dropdown-destino">
+                    <option value="Praia">Março</option>
+                    <option value="Montanhas">Abril</option>
+                    <option value="Cidade">Maio</option>
+                    <option value="Campo">Junho</option>
+                    <option value="Praia">Julho</option>                  
+             </select>
+            </div>
+            <div>
+             <p>Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe?</p>
+               <input type="checkbox" id="newsletter"> 
+               <label for="newsletter">Sim, gostaria</label>
+            </div>
+            <br>
+            <div>
+                <input type="checkbox" id="newsletter" required> 
+                <label for="newsletter">Concordo que imagens das minhas férias poderão ser usadas na divulgação de concursos futuros.</label>
+            </div>
+            <br>
+            <div>
+                <button type="submit">Enviar</button>
+            </div>
+        </main>
+    </form>
+  </body>
+  <script src="script.js"></script>
+</html>
+
+<!-- O formulário deverá permitir que a pessoa usuária insira os seguintes campos:
+Nome Completo: Limitado entre 10 e 40 caracteres.
+E-mail: Limitado entre 10 e 50 caracteres.
+Destino Preferido: 4 opções: Cidade, Campo, Praia, Montanhas.
+Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso TrybeTrip? Limite de 500 caracteres.
+Qual a melhor data para realizar sua viagem? 
+Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe?
+Concordo que imagens das minhas férias poderão ser usadas na divulgação de concursos futuros.
+Crie um botão para enviar as informações preenchidas.
+Agora vamos utilizar um pouco de javascript, para isso crie o arquivo script.js e o referencie no HTML.
+Dica: Coloque a tag <script> no final do seu body.
+Interrompa o comportamento padrão do botão submit utilizando o método preventDefault().
+Crie um botão que limpe as informações contidas nos campos; -->
