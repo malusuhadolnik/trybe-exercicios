@@ -13,3 +13,5 @@ const getPlanet = () => {
   };
   
   getPlanet(); // Imprime Marte depois de 4 segundos
+
+  
